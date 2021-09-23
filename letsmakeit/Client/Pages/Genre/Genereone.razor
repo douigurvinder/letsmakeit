@@ -1,0 +1,17 @@
+﻿@page "/doui1"
+@inject IRposipory insertGenre
+
+
+
+@code
+{
+    private Class1 class1 = new Class1();
+    private async Task Create()
+    {
+        await insertGenre.Create(class1);
+
+
+
+    }
+    
+    }
